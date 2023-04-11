@@ -79,8 +79,20 @@ let store = {
 // Create a new variable (not part of the object) called buyHouse that has no value.
 // Check if isForSale and isInGoodLocation. If true set buyHouse to true, else false
 // Delete the isForSale property of home.
- 
+ let home = {
+    rooms: 8,
+    bathrooms: 10,
+    isForSale: true,
+    isInGoodLocation: true,
+ };
+    home.price = 750000,
+    home['year'] = 2023,
+    home.isForSale = false,
 
+    let buyHouse;
+    let buyHouse = home.isForSale && home.isInGoodLocation ? true : false;
+
+    delete home.isForSale;
 // Problem 4, 5
 
 // Declare a JS object with 4 properties (4 keys and 4 values).
@@ -91,3 +103,14 @@ let store = {
 // Create a new variable (not part of the object) that has no value.
 // Write some kind of if / else statement to check some information of the object. Based on true / false set the value of the variable you made in number 6 to true or false.
 // Delete one of the object properties.
+
+let bootcamp = {
+    assignments70OrHigher: true,
+    noMoreThanFiveAbsences: true,
+    quizGrade70OrHigher: true,
+    difficulty:
+    
+    
+    
+
+}
